@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>/Users/alessandrobernanei/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/Compiti/Wwise ParcoGiochi/</ProjectRoot>
+		<SourceFilesRoot>/Users/alessandrobernanei/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/Compiti/Wwise ParcoGiochi/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/alessandrobernanei/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/Compiti/Wwise ParcoGiochi/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/alessandrobernanei/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/Compiti/Wwise ParcoGiochi/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" GUID="{17C6DE77-EDC8-4CDF-804E-550378711930}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<IncludedEvents>
+				<Event Id="197355458" Name="Ball_Fall" ObjectPath="\Events\Default Work Unit\Ball\Ball_Fall" GUID="{9FF4C0C7-E4D8-4771-B701-B47FB436F603}" DurationType="OneShot" DurationMin="1.084252" DurationMax="1.084252"/>
+				<Event Id="592919662" Name="Ball_First_Slide_Start" ObjectPath="\Events\Default Work Unit\Ball\Ball_First_Slide_Start" GUID="{5A79901D-FC8A-4F94-A8E6-6417FE52A83D}" DurationType="Infinite"/>
+				<Event Id="1275283582" Name="Ball_Land" ObjectPath="\Events\Default Work Unit\Ball\Ball_Land" GUID="{E79C7658-A4F8-4668-A661-A1F7CD3AEF27}" DurationType="OneShot" DurationMin="0.557094" DurationMax="0.557094"/>
+				<Event Id="3757966282" Name="Ball_Second_Slide_Start" ObjectPath="\Events\Default Work Unit\Ball\Ball_Second_Slide_Start" GUID="{E4226FE2-71D9-4072-BC6E-77522C29484B}" DurationType="Infinite"/>
+				<Event Id="3012737314" Name="Ball_Second_Slide_Stop" ObjectPath="\Events\Default Work Unit\Ball\Ball_Second_Slide_Stop" GUID="{BFF7CA89-3906-4620-AC1D-6C624BFE0D73}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3859994751" Name="Ball_Strike" ObjectPath="\Events\Default Work Unit\Ball\Ball_Strike" GUID="{CC192E4E-F67F-4E12-AF15-E634877A0FC5}" DurationType="OneShot" DurationMin="0.235023" DurationMax="0.332372"/>
+				<Event Id="3880195075" Name="Bird_Ambience" ObjectPath="\Events\Default Work Unit\Bird_Ambience" GUID="{1B81D1BC-2780-440D-9B90-96B7A877787C}" MaxAttenuation="15.000000" DurationType="Infinite"/>
+				<Event Id="417627684" Name="PlayMusic" ObjectPath="\Events\Default Work Unit\PlayMusic" GUID="{EFB0C774-00D5-446D-9900-2A7377C89742}" DurationType="Infinite"/>
+				<Event Id="2290755900" Name="test_nota" ObjectPath="\Events\Default Work Unit\test_nota" GUID="{A5A0F82D-47FF-4963-9058-0217D3956EC8}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="816867097" Name="Urla" ObjectPath="\Events\Default Work Unit\Urla" GUID="{CD842434-51D0-4C2F-B55A-4CCEBCD67261}" DurationType="Infinite"/>
+				<Event Id="2331149292" Name="Urla_Stop" ObjectPath="\Events\Default Work Unit\Urla_Stop" GUID="{B3E5F712-5AB3-4216-AA89-23C2738D6E88}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="592561919" Name="WhistleStart" ObjectPath="\Events\Default Work Unit\WhistleStart" GUID="{77AC8D6A-1F1D-4E08-BD5F-CB226E687531}" DurationType="OneShot" DurationMin="1.031656" DurationMax="1.031656"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="225443430" Language="SFX">
+					<ShortName>Cartoon, Whistle, Falling, Human SND15478 1.wav</ShortName>
+					<Path>SFX/Cartoon, Whistle, Falling, Human SND15478 1_9A78B9B9.wem</Path>
+				</File>
+				<File Id="280996879" Language="SFX">
+					<ShortName>Food &amp; Drink, Ingredients, Can Of Soup, Empty, Drop On Surface SND21022.wav</ShortName>
+					<Path>SFX/Food &amp; Drink, Ingredients, Can Of Soup, Empty, Drop On Surface SND21022_1594B883.wem</Path>
+				</File>
+				<File Id="375696822" Language="SFX">
+					<ShortName>Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854.wav</ShortName>
+					<Path>SFX/Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854_F2F6EE14.wem</Path>
+				</File>
+				<File Id="392422635" Language="SFX">
+					<ShortName>Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988.wav</ShortName>
+					<Path>SFX/Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988_10C4C929.wem</Path>
+				</File>
+				<File Id="496933429" Language="SFX">
+					<ShortName>Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854.wav</ShortName>
+					<Path>SFX/Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854_58C1DC1B.wem</Path>
+				</File>
+				<File Id="558314265" Language="SFX">
+					<ShortName>Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854.wav</ShortName>
+					<Path>SFX/Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854_B9E14AFC.wem</Path>
+				</File>
+				<File Id="758249928" Language="SFX">
+					<ShortName>Musical, Loop, Drums, Bass Drum, Snare Rhythm, Rolls (160 BPM) SND59658.wav</ShortName>
+					<Path>SFX/Musical, Loop, Drums, Bass Drum, Snare Rhythm, Rolls (160 BPM) SND59658_D79FB2B7.wem</Path>
+				</File>
+				<File Id="784102297" Language="SFX">
+					<ShortName>Cartoon, Musical, Stupid, Making Fun Of, Descending 01 SND58354.wav</ShortName>
+					<Path>SFX/Cartoon, Musical, Stupid, Making Fun Of, Descending 01 SND58354_D79FB2B7.wem</Path>
+				</File>
+				<File Id="938073728" Language="SFX">
+					<ShortName>Musical, Percussion, Drum Beat Endings, Kick, Cymbal, Crash 01 SND62645 1.wav</ShortName>
+					<Path>SFX/Musical, Percussion, Drum Beat Endings, Kick, Cymbal, Crash 01 SND62645 1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="987080280" Language="SFX">
+					<ShortName>Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255.wav</ShortName>
+					<Path>SFX/Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255_A5C67157.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

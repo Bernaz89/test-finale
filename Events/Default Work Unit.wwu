@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C41C58AA-E86C-4836-A0F8-71A8DBA654AD}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C41C58AA-E86C-4836-A0F8-71A8DBA654AD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="test_nota" ID="{A5A0F82D-47FF-4963-9058-0217D3956EC8}">
+					<ChildrenList>
+						<Action Name="" ID="{457F95FA-FD52-4056-AC93-C7CE9EC74095}" ShortID="716149842">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test Nota" ID="{9D4DDCA5-35A6-4F38-8DC6-F4D48DFDF317}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bird_Ambience" ID="{1B81D1BC-2780-440D-9B90-96B7A877787C}">
+					<ChildrenList>
+						<Action Name="" ID="{BB96D778-1E61-4919-AE6B-EF73F4788FB2}" ShortID="892979304">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255" ID="{07458BC9-6BEB-4E63-BD3F-5F1D550FAC91}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Ball" ID="{0F08A461-C814-4EE6-A7D2-82E4148DB2BB}" ShortID="731802363">
+					<ChildrenList>
+						<Event Name="Ball_Second_Slide_Stop" ID="{BFF7CA89-3906-4620-AC1D-6C624BFE0D73}">
+							<ChildrenList>
+								<Action Name="" ID="{ADDFED75-BAE6-45BA-A846-A57CB5F83184}" ShortID="985922151">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ball_Second_Slide" ID="{B4E15DEC-85DC-47CD-9451-325864FA2A13}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Second_Slide_Start" ID="{E4226FE2-71D9-4072-BC6E-77522C29484B}">
+							<ChildrenList>
+								<Action Name="" ID="{A6FFFFE9-CA88-4FFE-9F5C-286E8D1BDA62}" ShortID="605061217">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ball_First_Slide" ID="{378D4CA8-6112-442C-9D32-41AE97C1D236}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D9BEDDEC-35C7-4149-A4AB-EBCE0864AE1B}" ShortID="910726254">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ball_Second_Slide" ID="{B4E15DEC-85DC-47CD-9451-325864FA2A13}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A854C7D9-3E5E-4D1D-9618-CE111F6DA617}" ShortID="68435197">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Urla State system" ID="{0771499C-D42D-4DAD-86C9-644D2D128A6B}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Land" ID="{E79C7658-A4F8-4668-A661-A1F7CD3AEF27}">
+							<ChildrenList>
+								<Action Name="" ID="{D4C2251F-7AFD-4AE6-9DCE-774135C5E901}" ShortID="554272836">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ball_Land" ID="{A5A5F10B-2A89-4691-ACC5-2EBF53954323}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_First_Slide_Start" ID="{5A79901D-FC8A-4F94-A8E6-6417FE52A83D}">
+							<ChildrenList>
+								<Action Name="" ID="{F73CF053-FB09-45DB-9B31-6EE300FCC8F1}" ShortID="951114411">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ball_First_Slide" ID="{378D4CA8-6112-442C-9D32-41AE97C1D236}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5F3460B6-F64E-4675-A389-0BCA823B55B4}" ShortID="987878626">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Urla State system" ID="{0771499C-D42D-4DAD-86C9-644D2D128A6B}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Fall" ID="{9FF4C0C7-E4D8-4771-B701-B47FB436F603}">
+							<ChildrenList>
+								<Action Name="" ID="{655E8D20-03FE-40D8-BE8D-18918CE8FC28}" ShortID="992146885">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ball_Fall" ID="{D2442170-6845-4C2A-B472-4C903112E674}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ball_Strike" ID="{CC192E4E-F67F-4E12-AF15-E634877A0FC5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{E8E75AD3-A57E-4F94-A5B4-2F29037EBFD4}" ShortID="917286275">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ball_Strike_Single" ID="{61F7F586-3249-4E2A-A7F4-A3B7DA8E5028}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Urla" ID="{CD842434-51D0-4C2F-B55A-4CCEBCD67261}">
+					<ChildrenList>
+						<Action Name="" ID="{19FD0F56-C453-4287-B63A-AE57CA580C2F}" ShortID="107310636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Urla State system" ID="{0771499C-D42D-4DAD-86C9-644D2D128A6B}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Urla_Stop" ID="{B3E5F712-5AB3-4216-AA89-23C2738D6E88}">
+					<ChildrenList>
+						<Action Name="" ID="{B338CF15-EA25-419A-8AEC-2840135F6C0B}" ShortID="943439455">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Urla State system" ID="{0771499C-D42D-4DAD-86C9-644D2D128A6B}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMusic" ID="{EFB0C774-00D5-446D-9900-2A7377C89742}">
+					<ChildrenList>
+						<Action Name="" ID="{C38F554E-7B04-443A-8103-5C1D5E0C0612}" ShortID="712273596">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music System" ID="{F6F19FBE-0622-492A-9A91-07807ADED863}" WorkUnitID="{41A1AE4E-69ED-47DB-9D63-C9EADB67EE7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WhistleStart" ID="{77AC8D6A-1F1D-4E08-BD5F-CB226E687531}">
+					<ChildrenList>
+						<Action Name="" ID="{2F236A41-3E8D-4087-89AF-253DE85C339E}" ShortID="680038780">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988" ID="{31193F6D-6415-4C74-811F-8AC834ED3239}" WorkUnitID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

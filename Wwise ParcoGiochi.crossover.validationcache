@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="94">
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1644598061" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1634909553" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Attenuations\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Audio Devices\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Control Surface Sessions\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Conversion Settings\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1634909552" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Effects\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Effects\Factory Effects.wwu" DateLow="1634909552" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Events\Default Work Unit.wwu" DateLow="1644597039" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Game Parameters\Default Work Unit.wwu" DateLow="1644579454" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1644594764" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Mixing Sessions\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Modulators\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Presets\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Queries\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Queries\Factory Queries.wwu" DateLow="1634909552" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\SoundBanks\Default Work Unit.wwu" DateLow="1644435891" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1644597039" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\States\Default Work Unit.wwu" DateLow="1644591272" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Switches\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Triggers\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Virtual Acoustics\Default Work Unit.wwu" DateLow="1644338239" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Wwise ParcoGiochi.crossover.wsettings" DateLow="1644597369" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\Wwise ParcoGiochi.wproj" DateLow="1644503177" DateHigh="0"/>
+</ValidationCache>

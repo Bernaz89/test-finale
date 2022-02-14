@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EDE4C67E-7726-463A-B4E8-671DF4E18DF7}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{EDE4C67E-7726-463A-B4E8-671DF4E18DF7}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Urla" ID="{8E7C9C5C-A531-4D95-8419-9A14BD97AEA9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{FB29457D-09A0-4F4F-84AD-EFF1DDF39496}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Test Nota" ID="{9D4DDCA5-35A6-4F38-8DC6-F4D48DFDF317}" ShortID="149234857">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{1BECF3DD-6278-4DCC-AC93-3E50D71D9107}" ShortID="942781408">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="15"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{771CD0E2-8671-483F-9F64-98D8B6D322DB}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>15</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Tone Generator" ID="{9E0574FF-A524-4708-819B-2F4CDF785FB1}" ShortID="78585351" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="400"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Tone Generator" ID="{9E0574FF-A524-4708-819B-2F4CDF785FB1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Albero" ID="{4B7C23E5-1EC6-4C13-B6EB-AA89CCADE364}" ShortID="677464682">
+					<ChildrenList>
+						<Sound Name="Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255" ID="{07458BC9-6BEB-4E63-BD3F-5F1D550FAC91}" ShortID="707774634">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{50A92CE2-E0B8-4F60-A0F6-BEA94B0EEFE5}" ShortID="947447438">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="15"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{8C038170-DB11-4F47-8D37-D80F85B5B6A4}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>15</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255" ID="{AE06A73E-3DEC-4434-A55F-04118776CD47}" ShortID="987080280">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="181.215"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.209215639467593"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0597758969907405"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.149439742476852"/>
+										<Property Name="LoopEnd" Type="Real64" Value="5.40971867766203"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.67871021412037"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255" ID="{AE06A73E-3DEC-4434-A55F-04118776CD47}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Palla Da Bowling" ID="{CD7F36F7-3B59-4E76-86B7-EAAEBCC48EE2}" ShortID="839260846">
+					<ChildrenList>
+						<Sound Name="Ball_Land" ID="{A5A5F10B-2A89-4691-ACC5-2EBF53954323}" ShortID="667374547">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-400</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854" ID="{FD95A127-75A9-495E-B1DA-3120A22B25FC}" ShortID="558314265">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.141493055555556"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.44216579861111"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="375696822"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854" ID="{FD95A127-75A9-495E-B1DA-3120A22B25FC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ball_First_Slide" ID="{378D4CA8-6112-442C-9D32-41AE97C1D236}" ShortID="983294777">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854" ID="{46CE4538-6A7A-41D9-8D77-F2E792C9268A}" ShortID="375696822">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="80.428"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.1591796875"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.01698133680556"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.09586588541667"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.353732638888889"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.15776909722222"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="558314265"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854" ID="{46CE4538-6A7A-41D9-8D77-F2E792C9268A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ball_Second_Slide" ID="{B4E15DEC-85DC-47CD-9451-325864FA2A13}" ShortID="116985767">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854" ID="{00DA3157-6367-4327-BDCB-BE80607D9782}" ShortID="496933429">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="268.092"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.265299479166667"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.07958984375"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.08702256944445"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.74142795138889"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.46799045138889"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.00672743055555"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854" ID="{00DA3157-6367-4327-BDCB-BE80607D9782}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ball_Fall" ID="{D2442170-6845-4C2A-B472-4C903112E674}" ShortID="767338693">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cartoon, Whistle, Falling, Human SND15478 1" ID="{ACDD97F4-8F09-40AF-B0A3-9EBF9AF66848}" ShortID="225443430">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.798257233796296"/>
+										<Property Name="FadeOutShape" Type="int16" Value="4"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Cartoon, Whistle, Falling, Human SND15478 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cartoon, Whistle, Falling, Human SND15478 1" ID="{ACDD97F4-8F09-40AF-B0A3-9EBF9AF66848}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ball_Strike" ID="{7C2B47D4-63DA-4C81-97D4-9E4CAD881812}" ShortID="423762529">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sports, Indoor, Bowling, Throw, Slow, Hit 01 SND39851" ID="{E8850062-7E81-46F7-9C55-AA0C1EAA55F9}" ShortID="653213564">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0225915798611111"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.38561689814815"/>
+										<Property Name="FadeOutShape" Type="int16" Value="4"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0225915798611111"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.54375795717593"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sports, Indoor, Bowling, Throw, Slow, Hit 01 SND39851.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sports, Indoor, Bowling, Throw, Slow, Hit 01 SND39851" ID="{E8850062-7E81-46F7-9C55-AA0C1EAA55F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ball_Strike_Single" ID="{61F7F586-3249-4E2A-A7F4-A3B7DA8E5028}" ShortID="214173170">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>200</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5CF597FC-7753-452F-B917-FD1D441FA30E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-400"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Food &amp; Drink, Ingredients, Can Of Soup, Empty, Drop On Surface SND21022" ID="{4C507B43-471A-4404-84F0-C87569099063}" ShortID="280996879">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00460615596064815"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.13950072337963"/>
+										<Property Name="FadeOutShape" Type="int16" Value="4"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.296110026041667"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Food &amp; Drink, Ingredients, Can Of Soup, Empty, Drop On Surface SND21022.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Food &amp; Drink, Ingredients, Can Of Soup, Empty, Drop On Surface SND21022" ID="{4C507B43-471A-4404-84F0-C87569099063}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Urla System" ID="{D7A150AE-83A7-45A5-A1A8-F3B35C76B2EA}" ShortID="624330542">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<SwitchContainer Name="Urla State system" ID="{0771499C-D42D-4DAD-86C9-644D2D128A6B}" ShortID="25793489">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Urla_No" ID="{BB3D2432-2A03-4A6A-A4AC-AD05414B1513}" WorkUnitID="{1260B4BC-2F78-4EBE-BF27-F73CCE5B1C16}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="UrloState" ID="{5869A4D2-88E5-4AD3-98D0-F359D1A18205}" WorkUnitID="{1260B4BC-2F78-4EBE-BF27-F73CCE5B1C16}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Silence" ID="{4734E2FD-A75A-40DD-942C-F5625B780E90}" ShortID="449001541">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{014EDCBA-E5A2-4DA5-AA4D-26A17E6DCF0A}" ShortID="628467145" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<Language>English(US)</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{014EDCBA-E5A2-4DA5-AA4D-26A17E6DCF0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116" ID="{AD78C3E4-7DB6-4C27-AC39-93EC6D89DD01}" ShortID="154919322">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116" ID="{1F8A2D61-16D0-4C5A-AEB8-1D3661FA6941}" ShortID="888519912">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="55.012"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0544391276041667"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.139122214988426"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0967806712962963"/>
+												<Property Name="LoopEnd" Type="Real64" Value="3.26029886429398"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0423415436921296"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.42361624710648"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116" ID="{1F8A2D61-16D0-4C5A-AEB8-1D3661FA6941}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116" ID="{AD78C3E4-7DB6-4C27-AC39-93EC6D89DD01}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Silence" ID="{4734E2FD-A75A-40DD-942C-F5625B780E90}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Urla_No" ID="{BB3D2432-2A03-4A6A-A4AC-AD05414B1513}"/>
+										<ItemList>
+											<ItemRef Name="Silence" ID="{4734E2FD-A75A-40DD-942C-F5625B780E90}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Urla_Si" ID="{A569F557-D36B-45D0-A1B1-2478C3FF5D6C}"/>
+										<ItemList>
+											<ItemRef Name="Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116" ID="{AD78C3E4-7DB6-4C27-AC39-93EC6D89DD01}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<BlendContainer Name="Urla System RTPC" ID="{C139B31D-908F-4D63-BD10-3E195B650787}" ShortID="866509787">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116" ID="{DDFABAFF-4BE8-4D90-AF93-4044236DA9BA}" ShortID="789648993">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{B5C439A2-3934-421B-971B-D524F5C30181}" ShortID="639682573">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_Urla" ID="{8E7C9C5C-A531-4D95-8419-9A14BD97AEA9}" WorkUnitID="{EDE4C67E-7726-463A-B4E8-671DF4E18DF7}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A809DF31-9093-4EBF-BBB5-48773C48FBEE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>98.999</XPos>
+																<YPos>-197.81701</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>99</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116" ID="{0C43882B-4FCE-4E83-9AA6-27B086938E55}" ShortID="172096713">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="55.012"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0544391276041667"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.139122214988426"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0967806712962963"/>
+												<Property Name="LoopEnd" Type="Real64" Value="3.26029886429398"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0423415436921296"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.42361624710648"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="888519912"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crowds, Children, Group, Uk, Aged 3 To 8, Fake Crying SND23116" ID="{0C43882B-4FCE-4E83-9AA6-27B086938E55}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988" ID="{31193F6D-6415-4C74-811F-8AC834ED3239}" ShortID="165824700">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D74CA8FD-5556-4B57-85D4-E6FB9A47A50F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB0E5C5C-4C96-42D7-BDF6-967E446D9720}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988" ID="{36AE07B3-12E9-4955-BDC5-72DEE8ADC72D}" ShortID="392422635">
+							<Language>SFX</Language>
+							<AudioFile>Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988" ID="{36AE07B3-12E9-4955-BDC5-72DEE8ADC72D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

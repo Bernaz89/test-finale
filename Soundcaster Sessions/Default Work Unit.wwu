@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{862CD6E0-BD0D-4538-82F0-E156D0AF6854}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{862CD6E0-BD0D-4538-82F0-E156D0AF6854}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test Slides" ID="{1F12D550-8DE7-41E3-914B-54469F608EC0}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Ball_Land" ID="{E79C7658-A4F8-4668-A661-A1F7CD3AEF27}" WorkUnitID="{C41C58AA-E86C-4836-A0F8-71A8DBA654AD}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Urla" ID="{CD842434-51D0-4C2F-B55A-4CCEBCD67261}" WorkUnitID="{C41C58AA-E86C-4836-A0F8-71A8DBA654AD}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ball_First_Slide_Start" ID="{5A79901D-FC8A-4F94-A8E6-6417FE52A83D}" WorkUnitID="{C41C58AA-E86C-4836-A0F8-71A8DBA654AD}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ball_Second_Slide_Start" ID="{E4226FE2-71D9-4072-BC6E-77522C29484B}" WorkUnitID="{C41C58AA-E86C-4836-A0F8-71A8DBA654AD}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ball_Second_Slide_Stop" ID="{BFF7CA89-3906-4620-AC1D-6C624BFE0D73}" WorkUnitID="{C41C58AA-E86C-4836-A0F8-71A8DBA654AD}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Urla" ID="{8E7C9C5C-A531-4D95-8419-9A14BD97AEA9}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Music_Change" ID="{E07FDBF9-1376-43ED-A376-0184725528D1}"/>
+						<CurrentStateRef Name="None" ID="{D66A36F0-E388-468A-A5CA-71403C96A941}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

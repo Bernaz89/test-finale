@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1260B4BC-2F78-4EBE-BF27-F73CCE5B1C16}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{1260B4BC-2F78-4EBE-BF27-F73CCE5B1C16}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Test" ID="{240F630B-EB00-4B41-96FA-CAE124017C00}">
+					<ChildrenList>
+						<State Name="None" ID="{1C1FA2E8-00AF-451D-9A36-FAF8828DEC0E}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="UrloState" ID="{5869A4D2-88E5-4AD3-98D0-F359D1A18205}">
+					<ChildrenList>
+						<State Name="None" ID="{D66A36F0-E388-468A-A5CA-71403C96A941}"/>
+						<State Name="Urla_Si" ID="{A569F557-D36B-45D0-A1B1-2478C3FF5D6C}"/>
+						<State Name="Urla_No" ID="{BB3D2432-2A03-4A6A-A4AC-AD05414B1513}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_State" ID="{BAFE550C-7EFE-4298-9020-55399AB8968A}">
+					<ChildrenList>
+						<State Name="None" ID="{A597154B-735A-4979-99AF-7A7166D972F6}"/>
+						<State Name="Music_Start" ID="{752C541B-1A8D-4835-BF16-AE39D869A997}"/>
+						<State Name="Music_Change" ID="{E07FDBF9-1376-43ED-A376-0184725528D1}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,43 @@
+Event	ID	Name			Wwise Object Path	Notes
+	197355458	Ball_Fall			\Default Work Unit\Ball\Ball_Fall	
+	417627684	PlayMusic			\Default Work Unit\PlayMusic	
+	592561919	WhistleStart			\Default Work Unit\WhistleStart	
+	592919662	Ball_First_Slide_Start			\Default Work Unit\Ball\Ball_First_Slide_Start	
+	816867097	Urla			\Default Work Unit\Urla	
+	1275283582	Ball_Land			\Default Work Unit\Ball\Ball_Land	
+	2290755900	test_nota			\Default Work Unit\test_nota	
+	2331149292	Urla_Stop			\Default Work Unit\Urla_Stop	
+	3012737314	Ball_Second_Slide_Stop			\Default Work Unit\Ball\Ball_Second_Slide_Stop	
+	3757966282	Ball_Second_Slide_Start			\Default Work Unit\Ball\Ball_Second_Slide_Start	
+	3859994751	Ball_Strike			\Default Work Unit\Ball\Ball_Strike	
+	3880195075	Bird_Ambience			\Default Work Unit\Bird_Ambience	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3157003241	Test			\Default Work Unit\Test	
+	3826569560	Music_State			\Default Work Unit\Music_State	
+	3829346946	UrloState			\Default Work Unit\UrloState	
+
+State	ID	Name	State Group			Notes
+	0	None	Test			
+	0	None	Music_State			
+	3725903807	Music_Start	Music_State			
+	4201475377	Music_Change	Music_State			
+	0	None	UrloState			
+	895669225	Urla_No	UrloState			
+	1382220100	Urla_Si	UrloState			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	78585351	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\Test Nota\Wwise Tone Generator	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	225443430	Ball_Fall	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Cartoon, Whistle, Falling, Human SND15478 1_9A78B9B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Palla Da Bowling\Ball_Fall		185528
+	280996879	Ball_Strike_Single	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Food & Drink, Ingredients, Can Of Soup, Empty, Drop On Surface SND21022_1594B883.wem		\Actor-Mixer Hierarchy\Default Work Unit\Palla Da Bowling\Ball_Strike_Single		56916
+	375696822	Ball_Land	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854_F2F6EE14.wem		\Actor-Mixer Hierarchy\Default Work Unit\Palla Da Bowling\Ball_Land		84960
+	392422635	Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Whistles, Mechanical, Soccer, Referee Whistle, Game Over SND13988		198140
+	496933429	Ball_Second_Slide	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854_58C1DC1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Palla Da Bowling\Ball_Second_Slide		295564
+	558314265	Ball_First_Slide	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Sports, Indoor, Bowling, Throw, Slow, Hit 02 SND39854_B9E14AFC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Palla Da Bowling\Ball_First_Slide		346504
+	758249928	Musical, Loop, Drums, Bass Drum, Snare Rhythm, Rolls (160 BPM) SND59658	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Musical, Loop, Drums, Bass Drum, Snare Rhythm, Rolls (160 BPM) SND59658_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music System\Drums Loops\Musical, Loop, Drums, Bass Drum, Snare Rhythm, Rolls (160 BPM) SND59658\Musical, Loop, Drums, Bass Drum, Snare Rhythm, Rolls (160 BPM) SND59658		1152064
+	784102297	Cartoon, Musical, Stupid, Making Fun Of, Descending 01 SND58354	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Cartoon, Musical, Stupid, Making Fun Of, Descending 01 SND58354_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music System\Ending\Cartoon, Musical, Stupid, Making Fun Of, Descending 01 SND58354\Cartoon, Musical, Stupid, Making Fun Of, Descending 01 SND58354		528968
+	938073728	Musical, Percussion, Drum Beat Endings, Kick, Cymbal, Crash 01 SND62645 1	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Musical, Percussion, Drum Beat Endings, Kick, Cymbal, Crash 01 SND62645 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stinger\Musical, Percussion, Drum Beat Endings, Kick, Cymbal, Crash 01 SND62645 1\Musical, Percussion, Drum Beat Endings, Kick, Cymbal, Crash 01 SND62645 1		432036
+	987080280	Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255	Y:\Documents\WwiseProjects\Compiti\Wwise ParcoGiochi\.cache\Mac\SFX\Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255_A5C67157.wem		\Actor-Mixer Hierarchy\Default Work Unit\Albero\Birds, Bird Of Prey, Tawny Owl, Song, Male, Forest Night SND50255		1090440
+
